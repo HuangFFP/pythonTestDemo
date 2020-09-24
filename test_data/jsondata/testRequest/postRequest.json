@@ -1,0 +1,35 @@
+{
+    "config":{
+        "name":"网上订餐-收货方式",
+        "url":"/117/deliveryMode/setting/l.do",
+        "method":"POST",
+        "headers":{
+            "Content-Type":"application/json",
+            "userInfo": {
+                "orgName": "",
+                "platformType": 0,
+                "tenantId": "0529b6ce477e4f149eddd9f8faf5413d",
+                "userId": "0730FEDEC1424BA3B47796D1EE63ECF5",
+                "username": "ctadmin"
+            }
+        },
+        "cookies":{
+
+        }
+    },
+    "testcase":[
+        {
+            "name":"测试用例1",
+            "params":{
+
+            },
+            "validate":[
+                {
+                    "check":"status_code",
+                    "comparator":"eq",
+                    "expect":"200"
+                }
+            ]
+        }
+    ]
+}
