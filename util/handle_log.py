@@ -5,9 +5,9 @@ import logbook
 import os
 
 sys.path.append('../')
-sys.path.append('C:/Users/huangfeipeng/PycharmProjects/test')
+sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
-BasePath = curPath[:curPath.find("test\\") + len("test\\")]
+BasePath = curPath[:curPath.find("demo\\") + len("demo\\")]
 from logbook import Logger, StreamHandler, FileHandler, TimedRotatingFileHandler
 from logbook.more import ColorizedStderrHandler
 
