@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4dd69ca3441ac3d7",
+  "name" : "测试标题",
+  "time" : {
+    "start" : 1599719149638,
+    "stop" : 1599719149735,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

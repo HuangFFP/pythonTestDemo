@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "pc-150",
+    "children" : [ {
+      "name" : "355232-MainThread",
+      "children" : [ {
+        "name" : "测试标题",
+        "uid" : "4dd69ca3441ac3d7",
+        "parentUid" : "266022d8203ec83a0a2df772eea4a4dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599719149638,
+          "stop" : 1599719149735,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '测试用例1', 'params': {}, 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expect': '200'}]}" ]
+      } ],
+      "uid" : "266022d8203ec83a0a2df772eea4a4dd"
+    } ],
+    "uid" : "147079edf6551b69be30e3a27fa5ba41"
+  } ]
+}

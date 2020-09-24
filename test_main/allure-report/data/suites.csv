@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 23 09:39:21 CST 2020","Wed Sep 23 09:39:21 CST 2020","67","test_case.testRequest","test_postRequestJson","TestRequestOne","","","测试标题",""

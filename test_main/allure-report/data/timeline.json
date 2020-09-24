@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "pc-150",
+    "children" : [ {
+      "name" : "362588-MainThread",
+      "children" : [ {
+        "name" : "测试标题",
+        "uid" : "a7414d5031746efc",
+        "parentUid" : "c071b9c7421203f1b52749cd83ec103b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599722432458,
+          "stop" : 1599722432564,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '测试用例1', 'params': {}, 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expect': '200'}]}" ]
+      } ],
+      "uid" : "c071b9c7421203f1b52749cd83ec103b"
+    }, {
+      "name" : "220332-MainThread",
+      "children" : [ {
+        "name" : "测试标题",
+        "uid" : "6815137ee3256d1b",
+        "parentUid" : "1e4ad74dbb51bfffa334525d9a32fbb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600825161794,
+          "stop" : 1600825161861,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '测试用例1', 'params': {}, 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expect': '200'}]}" ]
+      } ],
+      "uid" : "1e4ad74dbb51bfffa334525d9a32fbb4"
+    } ],
+    "uid" : "147079edf6551b69be30e3a27fa5ba41"
+  } ]
+}

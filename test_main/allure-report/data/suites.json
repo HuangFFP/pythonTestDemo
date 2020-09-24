@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.testRequest",
+    "children" : [ {
+      "name" : "test_postRequestJson",
+      "children" : [ {
+        "name" : "TestRequestOne",
+        "children" : [ {
+          "name" : "测试标题",
+          "uid" : "6815137ee3256d1b",
+          "parentUid" : "7c397056895fec5eb563715f928f9d02",
+          "status" : "passed",
+          "time" : {
+            "start" : 1600825161794,
+            "stop" : 1600825161861,
+            "duration" : 67
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '测试用例1', 'params': {}, 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expect': '200'}]}" ]
+        } ],
+        "uid" : "7c397056895fec5eb563715f928f9d02"
+      } ],
+      "uid" : "fb459b35654ee375df35731af4528fc4"
+    } ],
+    "uid" : "5927a4739dbb162d857da07ca8f5f822"
+  } ]
+}

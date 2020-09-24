@@ -1,0 +1,103 @@
+{
+  "uid" : "4dd69ca3441ac3d7",
+  "name" : "测试标题",
+  "fullName" : "test_case.testRequest.test_postRequestJson.TestRequestOne#test_requestOne",
+  "historyId" : "bfcb82900d035ec2e7b89c1f1d0c7480",
+  "time" : {
+    "start" : 1599719149638,
+    "stop" : 1599719149735,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口：网上订餐-收货方式,请求地址：http://172.16.5.12:18080/117/deliveryMode/setting/l.do,请求方法：POST,请求头：{'Content-Type': 'application/json', 'userInfo': '{\"orgId\": \"43bb32f248be4a4f80fdf6c0f4f79e8c\", \"orgName\": \"\", \"platformType\": 0, \"tenantId\": \"0529b6ce477e4f149eddd9f8faf5413d\", \"userId\": \"0730FEDEC1424BA3B47796D1EE63ECF5\", \"username\": \"ctadmin\"}'},请求Cookies：{}",
+      "time" : {
+        "start" : 1599719149638,
+        "stop" : 1599719149639,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa641dc5ef5ec477",
+        "name" : "测试用例1",
+        "source" : "aa641dc5ef5ec477.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "4aeebf0770576da7",
+        "name" : "{}",
+        "source" : "4aeebf0770576da7.attach",
+        "type" : "text/plain",
+        "size" : 27
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试POST请求模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.testRequest"
+  }, {
+    "name" : "suite",
+    "value" : "test_postRequestJson"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRequestOne"
+  }, {
+    "name" : "host",
+    "value" : "pc-150"
+  }, {
+    "name" : "thread",
+    "value" : "355232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.testRequest.test_postRequestJson"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'name': '测试用例1', 'params': {}, 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expect': '200'}]}"
+  } ],
+  "links" : [ {
+    "name" : "测试地址：http://172.16.5.12:18080",
+    "url" : "测试地址：http://172.16.5.12:18080",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4dd69ca3441ac3d7.json",
+  "parameterValues" : [ "{'name': '测试用例1', 'params': {}, 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expect': '200'}]}" ]
+}
