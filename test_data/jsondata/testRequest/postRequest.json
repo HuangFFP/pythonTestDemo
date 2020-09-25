@@ -20,15 +20,15 @@
     },
     "testcase":[
         {
-            "name":"测试用例1",
+            "name":"测试用例",
             "params":{
-
+                "orgId": "43bb32f248be4a4f80fdf6c0f4f79e8c"
             },
             "validate":[
                 {
-                    "check":"status_code",
+                    "check":"code",
                     "comparator":"eq",
-                    "expect":"200"
+                    "expect":"11700000"
                 }
             ]
         }
