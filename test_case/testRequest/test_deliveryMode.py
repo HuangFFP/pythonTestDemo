@@ -47,6 +47,6 @@ class TestRequestOne():
 # 调用class
 TestRequestOne()
 
-if __name__ == "__main__":
-    pytest.main(['-s', '-v', 'test_deliveryMode.py', '-q', '--alluredir', '../reports/result'])
-    # pytest.main(['-v', 'test_deliveryMode.py'])
+# if __name__ == "__main__":
+#     pytest.main(['-s', '-v', 'test_deliveryMode.py', '-q', '--alluredir', '../reports/result'])
+#     pytest.main(['-v', 'test_deliveryMode.py'])
