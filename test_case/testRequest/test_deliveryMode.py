@@ -24,7 +24,7 @@ testCaseData = handle_jsonData.load_json(baseFileName)
 
 @allure.feature('测试POST请求模块')
 class TestRequestOne():
-    @allure.title('测试标题')
+    @allure.title('网上订餐收货方式配置')
     @allure.testcase('测试地址：http://172.16.5.12:18080')
     @pytest.mark.parametrize('case_data', testCaseData['testcase'])
     def test_requestOne(self, case_data):

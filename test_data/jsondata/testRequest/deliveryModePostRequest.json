@@ -1,7 +1,7 @@
 {
     "config":{
         "name":"网上订餐-收货方式",
-        "url":"/117/deliveryMode/setting/l.do",
+        "url":"/117/deliveryMode/settin/l.do",
         "method":"POST",
         "headers":{
             "Content-Type":"application/json",
