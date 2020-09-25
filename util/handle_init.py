@@ -6,7 +6,6 @@ import configparser
 sys.path.append('../')
 sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
-print(curPath)
 BasePath = curPath[:curPath.find("demo\\") + len("demo\\")]
 from util.handle_log import run_log as logger
 
@@ -14,6 +13,7 @@ from util.handle_log import run_log as logger
 class HandleInit:
     # 读取配置文件
     def load_ini(self):
+        logger.info('curPath{}'.format(curPath))
         file_path = BasePath + "/config/config.ini"
         logger.info('file_Path{}'.format(file_path))
         cf = configparser.ConfigParser()
