@@ -28,7 +28,7 @@ class ApiRequest:
             get_url = base_url + test_case_data['config']['url']
             get_method = test_case_data['config']['method']
             get_headers = {"Content-Type":"application/json","userInfo": json.dumps({
-                "orgId":"43bb32f248be4a4f80fdf6c0f4f79e8c",
+                "orgId": case_data['params'],
                 "orgName": "",
                 "platformType": 0,
                 "tenantId": "0529b6ce477e4f149eddd9f8faf5413d",

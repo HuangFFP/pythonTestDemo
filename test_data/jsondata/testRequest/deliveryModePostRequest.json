@@ -34,7 +34,7 @@
         },{
             "name":"测试用例2",
             "params":{
-                "orgId": "43bb32f248be4a4f80fdf60f4f79e8c"
+                "orgId": "43bb32f248be4a4f80f60f4f79e8c"
             },
             "validate":[
                 {
