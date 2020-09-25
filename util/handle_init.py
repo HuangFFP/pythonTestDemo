@@ -3,7 +3,7 @@ import configparser
 import os
 
 curPath = os.path.abspath(os.path.dirname(__file__))
-BasePath = os.path.abspath(os.path.join(os.getcwd().replace('\\','/'),'..'))
+BasePath = os.path.abspath(os.path.join(os.getcwd()))
 from util.handle_log import run_log as logger
 
 
