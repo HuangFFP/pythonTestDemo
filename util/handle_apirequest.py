@@ -4,10 +4,11 @@ import os
 import allure
 import json
 
-sys.path.append('../')
-sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
+# sys.path.append('../')
+# sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
-BasePath = curPath[:curPath.find("demo\\") + len("demo\\")]
+# BasePath = curPath[:curPath.find("demo\\") + len("demo\\")]
+BasePath = os.path.abspath(os.path.join(os.getcwd()))
 from base.base_request import baseRequest
 from util.handle_log import run_log as logger
 
@@ -22,7 +23,6 @@ class ApiRequest:
         get_case_name = None
         get_case_params = None
         response_data = None
-        logger.info('base_url %r,BasePath %r ,curPath  %r' % (base_url, BasePath, curPath))
         try:
             get_name = test_case_data['config']['name']
             get_url = base_url + test_case_data['config']['url']

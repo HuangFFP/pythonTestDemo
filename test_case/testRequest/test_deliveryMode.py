@@ -17,8 +17,8 @@ from util.handle_apirequest import apiRequest
 from pactverify.matchers import Matcher, Like, EachLike, Term, Enum, PactVerify
 from util.handle_comparators import comparatorsTest
 
-baseurl = handle_ini.get_value('cturl', 'ctservice')
-baseFileName = root_path + '/test_data/jsondata/testRequest/postRequest.json'
+baseurl = handle_ini.get_value('url', 'service')
+baseFileName = root_path + '/test_data/jsondata/testRequest/deliveryModePostRequest.json'
 testCaseData = handle_jsonData.load_json(baseFileName)
 
 
@@ -48,5 +48,5 @@ class TestRequestOne():
 TestRequestOne()
 
 if __name__ == "__main__":
-    pytest.main(['-s', '-v', 'test_postRequestJson.py', '-q', '--alluredir', '../reports/result'])
-    # pytest.main(['-v', 'test_postRequestJson.py'])
+    pytest.main(['-s', '-v', 'test_deliveryMode.py', '-q', '--alluredir', '../reports/result'])
+    # pytest.main(['-v', 'test_deliveryMode.py'])

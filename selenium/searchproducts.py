@@ -8,6 +8,7 @@ driver.get("http://172.16.5.12:4121/test02index")
 driver.find_element_by_class_name("login-us").send_keys("ctadmin")
 driver.find_element_by_class_name("login-pw").send_keys("!2wsx")
 
+# driver.find_element_by_
 #
 # driver.find_element_by_id("su").click()
 driver.find_element_by_class_name("login-btn").click()
