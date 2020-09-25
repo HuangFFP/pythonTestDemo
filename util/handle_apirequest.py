@@ -4,7 +4,7 @@ import os
 import allure
 import json
 
-sys.path.append('../')
+# sys.path.append('../')
 sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("demo\\") + len("demo\\")]

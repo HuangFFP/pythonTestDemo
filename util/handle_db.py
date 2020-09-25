@@ -3,7 +3,7 @@ import sys
 import os
 import cx_Oracle
 
-sys.path.append('../')
+# sys.path.append('../')
 sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
 from util.handle_init import handle_ini

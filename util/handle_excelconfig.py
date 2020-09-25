@@ -2,7 +2,7 @@
 import sys
 import os
 
-sys.path.append('../')
+# sys.path.append('../')
 sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
 
