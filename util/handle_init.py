@@ -3,14 +3,14 @@ import configparser
 import os
 
 curPath = os.path.abspath(os.path.dirname(__file__))
-BasePath = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "../")
+BasePath = os.path.abspath(os.path.join(os.getcwd()))
 from util.handle_log import run_log as logger
 
 
 class HandleInit:
     # 读取配置文件
     def load_ini(self):
-        file_path = BasePath + "/config/config.ini"
+        file_path = BasePath + "\config\config.ini"
         logger.info('file_Path{}'.format(file_path))
         cf = configparser.ConfigParser()
         cf.read(file_path, encoding='UTF-8')
