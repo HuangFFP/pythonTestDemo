@@ -6,6 +6,7 @@ import configparser
 sys.path.append('../')
 sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
+print(curPath)
 BasePath = curPath[:curPath.find("demo\\") + len("demo\\")]
 from util.handle_log import run_log as logger
 
