@@ -12,6 +12,7 @@ os.chdir(root_path)
 from util.handle_exceldata import GetData
 from base.base_request import baseRequest
 from util.handle_init import handle_ini
+from util.handle_log import run_log as logger
 
 file_name = root_path + '/test_data/exceldata/case1.xls'
 sheet_id = 0
@@ -22,6 +23,7 @@ class TestMainExcel():
     @allure.title('测试标题')
     @allure.testcase('测试地址：https://www.imooc.com')
     def test_mainExcel(self):
+        logger.info('file_name {}'.format(file_name))
         excelData = GetData(file_name, sheet_id)
         rows_count = excelData.get_case_lines()
         for i in range(1, rows_count):
