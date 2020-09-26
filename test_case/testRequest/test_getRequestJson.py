@@ -28,6 +28,7 @@ class TestRequestOne():
     @pytest.mark.parametrize('case_data', testCaseData['testcase'])
     def test_requestOne(self, case_data):
         try:
+            logger.info('file_name {}'.format(baseFileName))
             api_response = apiRequest.api_request(baseurl, testCaseData, case_data)
             api_response_data = api_response.json()
             # pactverity——全量契约校验
