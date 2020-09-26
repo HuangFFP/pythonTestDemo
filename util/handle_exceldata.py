@@ -1,9 +1,10 @@
 # coding:utf-8
+import os
+
 import xlrd
 from xlutils.copy import copy
+
 from util.handle_log import run_log as logger
-import sys
-import os
 
 # sys.path.append('../')
 # sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
