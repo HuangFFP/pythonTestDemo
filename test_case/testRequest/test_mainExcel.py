@@ -9,7 +9,7 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 root_path = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "../")
 sys.path.append(root_path)
 os.chdir(root_path)
-from util.handle_getexceldata import GetData
+from util.handle_exceldata import GetData
 from base.base_request import baseRequest
 from util.handle_init import handle_ini
 from util.handle_log import run_log as logger
