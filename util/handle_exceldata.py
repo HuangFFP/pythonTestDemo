@@ -1,6 +1,7 @@
 # coding:utf-8
 import xlrd
 from xlutils.copy import copy
+from util.handle_log import run_log as logger
 import sys
 import os
 
@@ -10,6 +11,7 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 
 class OperationExcel:
     def __init__(self, file_name=None, sheet_id=None):
+        logger.info('fileName {} '.format(file_name))
         if file_name:
             self.file_name = file_name
             self.sheet_id = sheet_id
