@@ -30,6 +30,25 @@ class TestRequestOne():
     def test_requestOne(self, case_data):
         try:
             api_response = apiRequest.api_request(baseurl, testCaseData, case_data)
+            api_response_data = api_response.json()
+            # pactverity——全量契约校验
+            config_contract_format = Like({
+                "msg": "成功",
+                "result": 0,
+                "data": EachLike({
+                    "code": Like("11700000")
+                })
+            })
+            mPactVerify = PactVerify(config_contract_format)
+            try:
+                mPactVerify.verify(api_response_data)
+                logger.info(
+                    'verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result, mPactVerify.verify_info))
+                assert mPactVerify.verify_result == True
+            except Exception:
+                err_msg = '契约校验错误'
+                logger.exception('测试用例契约校验失败，verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result,
+                                                                                     mPactVerify.verify_info))
             try:
                 for case_validate in case_data['validate']:
                     logger.info('断言期望相关参数：check：{},comparator：{},expect：{}'.format(case_validate['check'],
