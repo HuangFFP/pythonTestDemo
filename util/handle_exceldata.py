@@ -79,6 +79,6 @@ class OperationExcel:
 
 GetData = OperationExcel()
 
-if __name__ == '__main__':
-    opers = OperationExcel()
-    print(opers.get_cell_value(1, 2))
+# if __name__ == '__main__':
+#     opers = OperationExcel()
+#     print(opers.get_cell_value(1, 2))
