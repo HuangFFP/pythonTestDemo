@@ -1,6 +1,9 @@
 # coding:utf-8
 import sys
 import os
+
+from util.handle_log import run_log as logger
+
 sys.path.append('../')
 sys.path.append('C:/Users/huangfeipeng/PycharmProjects/demo')
 curPath = os.path.abspath(os.path.dirname(__file__))
@@ -8,6 +11,7 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 class comparators():
     def assertEqual(self, result, check, expect):
         result_data = result.json()
+        logger.info('result {} '.format(result_data))
         if check == 'status_code':
             assert str(result.status_code) == expect
         else:
