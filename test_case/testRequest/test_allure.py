@@ -154,18 +154,10 @@ class TestLogin(object):
         try:
             assert False
         except AssertionError as e:
-            with open(curPath+"\\attach.png", "ra") as f:
+            with open(curPath+"\\attach.png", "r+a") as f:
                 context = f.read()
                 allure.attach(context, "错误图片", attachment_type=allure.attachment_type.PNG)
             raise e
-
-    @allure.severity(allure.severity_level.TRIVIAL)
-    @allure.story("测试broken用例")
-    @allure.issue("https://www.cnblogs.com/linuxchao/", "错误链接")
-    def test_broken(self):
-        """broken"""
-        with open("broken.json", "r", encoding='utf8') as f:
-            f.read()
 
     @allure.severity(allure.severity_level.TRIVIAL)
     @allure.story("测试无条件跳过测试用例")
