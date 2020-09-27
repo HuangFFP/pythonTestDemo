@@ -28,7 +28,6 @@ class TestRequestOne():
     @allure.testcase('测试地址：http://172.16.5.12:18080')
     @pytest.mark.parametrize('case_data', testCaseData['testcase'])
     def test_requestOne(self, case_data):
-        assert False
         try:
             api_response = apiRequest.api_request(baseurl, testCaseData, case_data)
             api_response_data = api_response.json()
@@ -62,8 +61,12 @@ class TestRequestOne():
                                                        case_validate['comparator'], case_validate['expect'])
 
                     logger.info('测试用例断言成功')
-            except Exception as e:
+            except AssertionError as e:
                 logger.exception('测试用例断言失败')
+                with open("attach.png" , "rb") as f:
+                    context = f.read()
+                    allure.attach(context,"错误图片" , attachment_type=allure.attachment_type.PNG)
+                    raise e
         except Exception as e:
             logger.exception('测试用例请求失败，{}'.format(e))
 
