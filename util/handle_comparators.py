@@ -11,7 +11,6 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 class comparators():
     def assertEqual(self, result, check, expect):
         result_data = result.json()
-        logger.info('result {} '.format(result_data))
         if check == 'status_code':
             assert str(result.status_code) == expect
         else:
