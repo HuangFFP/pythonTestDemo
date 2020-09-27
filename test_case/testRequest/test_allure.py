@@ -154,7 +154,7 @@ class TestLogin(object):
         try:
             assert False
         except AssertionError as e:
-            with open(curPath+"\\attach.png", "rb") as f:
+            with open(curPath+"\\attach.png", "ra") as f:
                 context = f.read()
                 allure.attach(context, "错误图片", attachment_type=allure.attachment_type.PNG)
             raise e
