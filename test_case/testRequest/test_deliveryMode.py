@@ -49,7 +49,7 @@ class TestRequestOne():
                 err_msg = '契约校验错误'
                 logger.exception('测试用例契约校验失败，verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result,
                                                                                      mPactVerify.verify_info))
-            try:
+            # try:
                 for case_validate in case_data['validate']:
                     logger.info('断言期望相关参数：check：{},comparator：{},expect：{}'.format(case_validate['check'],
                                                                                    case_validate['comparator'],
@@ -61,8 +61,8 @@ class TestRequestOne():
                                                        case_validate['comparator'], case_validate['expect'])
 
                     logger.info('测试用例断言成功')
-            except Exception as e:
-                logger.exception('测试用例断言失败')
+            # except Exception as e:
+            #     logger.exception('测试用例断言失败')
         except Exception as e:
             logger.exception('测试用例请求失败，{}'.format(e))
 
