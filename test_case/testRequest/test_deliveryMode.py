@@ -27,6 +27,7 @@ class TestRequestOne():
     @allure.title('网上订餐收货方式配置')
     @allure.testcase('测试地址：http://172.16.5.12:18080')
     @pytest.mark.parametrize('case_data', testCaseData['testcase'])
+    @pytest.fixture()
     def test_requestOne(self, case_data):
         try:
             api_response = apiRequest.api_request(baseurl, testCaseData, case_data)
@@ -55,7 +56,7 @@ class TestRequestOne():
                                                                                    case_validate['comparator'],
                                                                                    case_validate['expect']))
 
-                    # assert api_response_data[case_validate['check']] == case_validate['expect']
+                    assert api_response_data[case_validate['check']] == case_validate['expect']
 
                     comparatorsTest.comparators_Assert(api_response, case_validate['check'],
                                                        case_validate['comparator'], case_validate['expect'])
