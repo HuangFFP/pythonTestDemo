@@ -3,6 +3,8 @@ import pytest
 import allure
 import os
 
+curPath = os.path.abspath(os.path.dirname(__file__))
+
 
 def login(username=None, password=None):
     """模拟登录"""
@@ -152,7 +154,7 @@ class TestLogin(object):
         try:
             assert False
         except AssertionError as e:
-            with open("attach.png", "rb") as f:
+            with open(curPath+"\\attach.png", "rb") as f:
                 context = f.read()
                 allure.attach(context, "错误图片", attachment_type=allure.attachment_type.PNG)
             raise e
