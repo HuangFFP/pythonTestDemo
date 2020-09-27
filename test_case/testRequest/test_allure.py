@@ -3,6 +3,8 @@ import pytest
 import allure
 import os
 
+from util.handle_log import run_log as logger
+
 curPath = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -154,10 +156,7 @@ class TestLogin(object):
         try:
             assert False
         except AssertionError as e:
-            with open(curPath+"\\attach.png", "r+a") as f:
-                context = f.read()
-                allure.attach(context, "错误图片", attachment_type=allure.attachment_type.PNG)
-            raise e
+            logger.error("失败用例")
 
     @allure.severity(allure.severity_level.TRIVIAL)
     @allure.story("测试无条件跳过测试用例")

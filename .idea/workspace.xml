@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0f528b-617b-4e75-90e8-b423ba69c89d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_allure.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_allure.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-483">
               <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_allure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="147" column="4" lean-forward="true" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="50" />
+            <state relative-caret-position="341">
+              <caret line="161" column="51" lean-forward="true" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
               <folding>
                 <element signature="e#2#15#0" expanded="true" />
               </folding>
@@ -175,8 +175,8 @@
         <option value="$PROJECT_DIR$/util/handle_exceldata.py" />
         <option value="$PROJECT_DIR$/test_main/run_main.py" />
         <option value="$PROJECT_DIR$/util/handle_comparators.py" />
-        <option value="$PROJECT_DIR$/test_case/testRequest/test_allure.py" />
         <option value="$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py" />
+        <option value="$PROJECT_DIR$/test_case/testRequest/test_allure.py" />
       </list>
     </option>
   </component>
@@ -675,7 +675,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601190738832</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="commit">
+      <created>1601190879168</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1601190879168</updated>
+    </task>
+    <task id="LOCAL-00047" summary="commit">
+      <created>1601191046311</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1601191046311</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -950,20 +964,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_allure.py">
+    <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="147" column="4" lean-forward="true" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="50" />
-          <folding>
-            <element signature="e#2#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-483">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-749126193/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="184">
+          <caret line="383" column="49" lean-forward="true" selection-start-line="383" selection-start-column="49" selection-end-line="383" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_allure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="161" column="51" lean-forward="true" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
