@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0f528b-617b-4e75-90e8-b423ba69c89d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/util/handle_exceldata.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_exceldata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_mainExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="48" column="13" selection-start-line="48" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#15#26#0" expanded="true" />
               </folding>
@@ -48,16 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/conftest.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py">
+        <entry file="file://$PROJECT_DIR$/util/handle_comparators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="270">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -113,13 +118,13 @@
         <option value="$PROJECT_DIR$/selenium/searchproducts.py" />
         <option value="$PROJECT_DIR$/util/handle_apirequest.py" />
         <option value="$PROJECT_DIR$/test_data/jsondata/testRequest/deliveryModePostRequest.json" />
-        <option value="$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py" />
-        <option value="$PROJECT_DIR$/test_main/run_main.py" />
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py" />
         <option value="$PROJECT_DIR$/test_case/testRequest/test_getRequestJson.py" />
         <option value="$PROJECT_DIR$/util/handle_init.py" />
         <option value="$PROJECT_DIR$/util/handle_exceldata.py" />
+        <option value="$PROJECT_DIR$/test_main/run_main.py" />
+        <option value="$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py" />
       </list>
     </option>
   </component>
@@ -163,12 +168,6 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="testRequest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -222,6 +221,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\huangfeipeng\PycharmProjects\demo\test_case\" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\huangfeipeng\PycharmProjects\demo\test_data\jsondata\testRequest" />
       <recent name="C:\Users\huangfeipeng\PycharmProjects\demo" />
@@ -531,7 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601101031820</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="commit">
+      <created>1601101234787</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601101234787</updated>
+    </task>
+    <task id="LOCAL-00035" summary="commit">
+      <created>1601101309023</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601101309023</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -682,24 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_comparators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_data/jsondata/testRequest/deliveryModePostRequest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_main/run_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -773,19 +775,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py">
+    <entry file="file://$PROJECT_DIR$/test_main/run_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="162">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_apirequest.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_mainExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="25" />
+        <state relative-caret-position="459">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -800,13 +802,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py">
+    <entry file="file://$PROJECT_DIR$/util/handle_apirequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="48" column="13" selection-start-line="48" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="1525">
+          <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="25" />
           <folding>
-            <element signature="e#15#26#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/handle_comparators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/testRequest/test_deliveryMode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
         </state>
       </provider>
     </entry>

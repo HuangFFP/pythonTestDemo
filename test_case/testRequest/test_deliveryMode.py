@@ -56,6 +56,8 @@ class TestRequestOne():
                                                                                    case_validate['expect']))
                     comparatorsTest.comparators_Assert(api_response, case_validate['check'],
                                                        case_validate['comparator'], case_validate['expect'])
+
+                    assert case_validate['check']
                     logger.info('测试用例断言成功')
             except Exception as e:
                 logger.exception('测试用例断言失败')
