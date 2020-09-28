@@ -156,7 +156,7 @@ class TestLogin(object):
         try:
             assert False
         except AssertionError as e:
-            logger.error("失败用例")
+            logger.error("失败用例 {}".format(e))
 
     @allure.severity(allure.severity_level.TRIVIAL)
     @allure.story("测试无条件跳过测试用例")
