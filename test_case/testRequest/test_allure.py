@@ -2,6 +2,7 @@
 import pytest
 import allure
 import os
+from selenium import webdriver
 
 from util.handle_log import run_log as logger
 
@@ -165,3 +166,16 @@ class TestLogin(object):
         """skip"""
         pass
 
+    @allure.severity(allure.severity_level.NORMAL)
+    @allure.story("测试登录测试用例")
+    def test_login(self):
+        browser = webdriver.Chrome()
+
+        with allure.step("step1：打开登录首页"):
+            browser.get("http://172.16.5.12:4121/test02index")
+        with allure.step("step2：输入账号：ctadmin"):
+            browser.find_element_by_name("login-us").send_keys("ctadmin")
+        with allure.step("step2：输入密码：!2wsx"):
+            browser.find_element_by_name("login-pw").send_keys("!2wsx")
+        # 故意断言失败，看是否会截图
+        assert browser.title == "悠悠"
