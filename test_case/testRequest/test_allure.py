@@ -143,14 +143,14 @@ class TestLogin(object):
 
     @allure.severity(allure.severity_level.MINOR)
     @allure.story("测试初始化地址")
-    @allure.testcase("https://www.cnblogs.com/linuxchao/", "测试用例地址")
+    @allure.testcase("http://172.16.5.12:4121/test14login/", "测试用例地址")
     def test_init_url(self, init_url):
         flag = init_url
         assert flag is True
 
     @allure.severity(allure.severity_level.NORMAL)
     @allure.story("测试失败用例与用例中添加附件")
-    @allure.link("https://www.cnblogs.com/linuxchao/", name="bug链接")
+    @allure.link("http://172.16.5.12:4121/test14login/", name="bug链接")
     @allure.description("这是一个一直执行失败的测试用例")
     def test_failed(self):
         """你也可以在这里添加用例的描述信息，但是会被allure.description覆盖"""
@@ -178,4 +178,4 @@ class TestLogin(object):
         with allure.step("step2：输入密码：!2wsx"):
             browser.find_element_by_name("login-pw").send_keys("!2wsx")
         # 故意断言失败，看是否会截图
-        assert browser.title == "悠悠"
+        assert browser.title == "z"
